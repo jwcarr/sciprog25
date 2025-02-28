@@ -201,7 +201,133 @@ _unit1_questions = [
 
 _unit2_questions = [
 
+    _js_submission_script + """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Given that <code>numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</code>, what would the result of the following expression be: <code>max(numbers[0:5]) + min(numbers[5:10])</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 9</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 10</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 11</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 12</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
 
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>sorted(['blue', 'red', 'green', 'yellow', 'black'])[-1]</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> ['blue', 'black', 'green', 'red', 'yellow']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> ['black', 'blue', 'green', 'red', 'yellow']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> ['yellow', 'red', 'green', 'blue', 'black']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 'yellow'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="e"> 'black'</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of the following: <code>colors = ['blue', 'red', 'green', 'yellow', 'black']; shuffle(colors); print(colors[0])</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 'blue'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 'red'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 'green'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 'yellow'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="e"> 'black'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="f"> Unknown/unpredictable</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Which of the following statements is incorrect?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> It is possible to write Python code without any functions.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> Using a function makes your code run faster.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> Functions help organize code into discrete chunks.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> All functions have a return value.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Given the above function definition, would is the result of <code>raise_x_to_y(2, 2 * 8)</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 16</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 32</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 65536</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>True or false? A function must take at least one argument.</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> True</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> False </label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>True or false? A functions will always return the same output if it is given the same input.</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> True</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> False</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>colors = ['blue', 'red', 'green', 'yellow', 'black']; sorted_colors = colors.sort(); print(sorted_colors)</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> ['black', 'blue', 'green', 'red', 'yellow']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> ['blue', 'red', 'green', 'yellow', 'black']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> TypeError</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> None</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>'hello world'.split(' ')[0]</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 'hello'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 'h'</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> ['hello', 'world']</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Which of these statements is incorrect?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> A collection of related functions can be organized together in a class.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> Functions must be declared before they can be used.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> The <code>sum()</code> function has to be imported from the <code>math</code> module before it can be used.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> A given function is allowed to call itself.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer(questionId='UNIT_NUMBER-QUESTION_NUMBER')">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
 
 ]
 
