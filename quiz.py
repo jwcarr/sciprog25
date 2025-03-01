@@ -413,6 +413,106 @@ _unit3_questions = [
 
 _unit4_questions = [
 
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>np.array([1, 2, 3]) ** 2</code>?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> array([1, 4, 9])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> array([2, 4, 6])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 6</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 12</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>np.ones(10) * np.zeros(10)</code>?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 0</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 100</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>np.arange(10)[5:]</code>?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> array([5, 6, 7, 8, 9, 10])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> array([5, 6, 7, 8, 9])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> array([6, 7, 8, 9])</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the result of <code>np.log2([2, 4, 8, 16, 32, 64])</code>?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> array([2., 4., 8., 16., 32., 64.])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> array([2., 4., 6., 8., 10., 12.])</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> array([1., 2., 3., 4., 5., 6.])</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What is the correlation coefficient if we reverse the order of the happiness-level figures?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 0.9315420132168272</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> -0.9315420132168272</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> -0.2772306621931542</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> Approximately 0.0</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Which statement is correct?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> Kmeans clustering looks for correlations in a dataset to create clusters.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> Kmeans clustering finds a set of clusters that minimize the average distance between cluster members.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> Kmeans clustering uses the mean value of a dataset to identify outliers.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Functions are usually followed by parentheses, so, in the code above, why do we write <code>minimize(good_icecream, 0.5)</code> rather than <code>minimize(good_icecream<strong><u>()</u></strong>, 0.5)</code>?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> We don't need to use parentheses because the <code>good_icecream</code> function does not have any inputs initially.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> <code>good_icecream</code> is being used as a string in this scenario.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> This allows us to pass the <code>good_icecream</code> function into the <code>minimize</code> function, rather than the function's return value.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What was the mean accuracy of all the subjects who were in the "size" condition?<p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 54%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 68%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 72%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 86%</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
 
 
 ]
