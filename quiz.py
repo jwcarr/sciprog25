@@ -519,7 +519,92 @@ _unit4_questions = [
 
 _unit5_questions = [
 
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>In the above code, why is there a <code>1</code> in  <code>np.polyfit(x, y, 1)</code>?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> The <code>1</code> instructs matplotlib to plot just one line.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> The <code>1</code> instructs the <code>polyfit</code> function to compute a 1st degree polynomial (a.k.a., a linear regression line).</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> The <code>1</code> is used as an initial seed value in the line fitting algorithm.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
 
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>When should you use a scatter plot and when should you use a line plot?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> Scatter plots are better for ordered data on one dimension.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> Scatter plots are better for ordered data on two dimensions.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> Scatter plots are better for unordered data on one dimension.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> Scatter plots are better for unordered data on two dimensions.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>Considering only the participants who learned the "angle" system in the comprehension condition, what was the accuracy score of the worst-performing participant?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 11%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 19%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 22%</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 23%</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>How many subjects are there in total?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 20</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 40</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 80</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>How many conditions are there?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 1</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 2</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 4</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>How many trials did each subject do?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> Between 10 and 64</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 43</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 64</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="d"> 100</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
+
+    """
+    <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
+        <p>What does the <code>gaussian_kde.pdf()</code> method do?</p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> It creates the plot in PDF format so that we can easily add it to a paper.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> It calculates the probability density function over the possible x values.</label></p>
+        <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> It calculates the probability density function over the subjects.</label></p>
+        <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
+        <p id="response-message-UNIT_NUMBER-QUESTION_NUMBER"></p>
+        <hr />
+    </div>
+    """,
 
 ]
 
