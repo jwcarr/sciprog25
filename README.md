@@ -97,13 +97,11 @@ In this class, I will give you some tips on how to scale up your code for high-p
 
 Before attending the first class, please try to get your computer set up with a working Python installation and the Jupyter Notebook package. Sometimes it can be tricky to get things set up correctly, but I will be available to help you during the first class in case of any problems.
 
-The easiest way to install everything is to use Anaconda: https://www.anaconda.com/products/individual This is a special distribution of Python that includes many of the packages we will need, including Jupyter Notebook.
-
-Once installed, there are several different ways to open Jupyter Notebook; check this website: https://pythonforundergradengineers.com/opening-a-jupyter-notebook-on-windows.html If you follow these instructions, you should be able to open a browser window with the Jupyter Notebook interface. Note that, although this looks like a website, it is actually a website running locally on your computer.
+The easiest way to install everything is to use Anaconda: https://www.anaconda.com/download This is a special distribution of Python that includes many of the packages we will need, including Jupyter Notebook. When you click the link above, it asks for an email address, but you can just click the "Skip registration" link. Then, download and install the Anaconda Distribution for your platform. It is also possible to install Miniconda instead, but this will require you to install the packages manually, so it's usually easier to install the main Anaconda distribution.
 
 ### Alternative installation options
 
-The Anaconda distribution is quite large, so if you prefer to be more minimalist, an alternative option is to install the official "vanilla" version of Python: https://www.python.org However, I would only recommend this option if you are reasonably familiar with the command line. Once Python is installed, you will then need to install the required packages by running this command:
+The Anaconda distribution is quite large, so if you prefer to be more minimalist, another alternative option is to install the official "vanilla" version of Python: https://www.python.org However, I would only recommend this option if you are reasonably familiar with the command line. Once Python is installed, you will then need to install the required packages by running this command:
 
 ```bash
 pip install -r requirements.txt
