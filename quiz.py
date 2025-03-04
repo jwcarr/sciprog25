@@ -252,7 +252,7 @@ _unit2_questions = [
 
     """
     <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
-        <p>True or false? A functions will always return the same output if it is given the same input.</p>
+        <p>True or false? A function will always return the same output if it is given the same input.</p>
         <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> True</label></p>
         <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> False</label></p>
         <p><button id="button-UNIT_NUMBER-QUESTION_NUMBER" onclick="submitAnswer_UNIT_NUMBER_QUESTION_NUMBER()">Submit</button></p>
