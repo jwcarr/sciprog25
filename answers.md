@@ -194,7 +194,7 @@ Which of the following statements is incorrect?
 Question 5
 ----------
 
-Given the above function definition, would is the result of `raise_x_to_y(2, 2 * 8)`?
+Given the above function definition, what is the result of `raise_x_to_y(2, 2 * 8)`?
 
 - [ ] 16
 - [ ] 32

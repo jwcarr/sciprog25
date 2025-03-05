@@ -229,7 +229,7 @@ _unit2_questions = [
 
     """
     <div id="question-UNIT_NUMBER-QUESTION_NUMBER">
-        <p>Given the above function definition, would is the result of <code>raise_x_to_y(2, 2 * 8)</code>?</p>
+        <p>Given the above function definition, what is the result of <code>raise_x_to_y(2, 2 * 8)</code>?</p>
         <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="a"> 16</label></p>
         <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="b"> 32</label></p>
         <p><label><input type="radio" name="answer-UNIT_NUMBER-QUESTION_NUMBER" value="c"> 65536</label></p>
