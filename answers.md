@@ -6,9 +6,9 @@ Question 1
 
 What is the result of `5 * 8 + 40 / 2`?
 
-- [x] 60.0
-- [ ] 40.0
-- [ ] 120
+- [x] `60.0`
+- [ ] `40.0`
+- [ ] `120`
 
 
 Question 2
@@ -16,10 +16,10 @@ Question 2
 
 What is the result of `10 / 5`?
 
-- [ ] 0.5
-- [ ] 2
-- [ ] DivisionError
-- [x] 2.0
+- [ ] `0.5`
+- [ ] `2`
+- [ ] `DivisionError`
+- [x] `2.0`
 
 
 Question 3
@@ -27,10 +27,10 @@ Question 3
 
 What is the result of `f"Ciao, {name * 3}!"` given that `name = "Pedro"`?
 
-- [ ] 'Ciao, Pedro!Ciao, Pedro!Ciao, Pedro!'
-- [x] 'Ciao, PedroPedroPedro!'
-- [ ] 'Ciao, Pedro!Pedro!Pedro!'
-- [ ] FormattingError
+- [ ] `'Ciao, Pedro!Ciao, Pedro!Ciao, Pedro!'`
+- [x] `'Ciao, PedroPedroPedro!'`
+- [ ] `'Ciao, Pedro!Pedro!Pedro!'`
+- [ ] `FormattingError`
 
 
 Question 4
@@ -38,9 +38,9 @@ Question 4
 
 What is the result of `(1 == 2) == False`?
 
-- [x] True
-- [ ] False
-- [ ] SyntaxError
+- [x] `True`
+- [ ] `False`
+- [ ] `SyntaxError`
 
 
 Question 5
@@ -48,10 +48,10 @@ Question 5
 
 Given the list of colors defined above, what is the result of `colors[2][1]`?
 
-- [ ] 'red'
-- [ ] 'green'
-- [x] 'r'
-- [ ] True
+- [ ] `'red'`
+- [ ] `'green'`
+- [x] `'r'`
+- [ ] `True`
 
 
 Question 6
@@ -160,11 +160,11 @@ Question 2
 
 What is the result of `sorted(['blue', 'red', 'green', 'yellow', 'black'])[-1]`?
 
-- [ ] ['blue', 'black', 'green', 'red', 'yellow']
-- [ ] ['black', 'blue', 'green', 'red', 'yellow']
-- [ ] ['yellow', 'red', 'green', 'blue', 'black']
-- [x] 'yellow'
-- [ ] 'black'
+- [ ] `['blue', 'black', 'green', 'red', 'yellow']`
+- [ ] `['black', 'blue', 'green', 'red', 'yellow']`
+- [ ] `['yellow', 'red', 'green', 'blue', 'black']`
+- [x] `'yellow'`
+- [ ] `'black'`
 
 
 Question 3
@@ -172,11 +172,11 @@ Question 3
 
 What is the result of the following: `colors = ['blue', 'red', 'green', 'yellow', 'black']; shuffle(colors); print(colors[0])`?
 
-- [ ] 'blue'
-- [ ] 'red'
-- [ ] 'green'
-- [ ] 'yellow'
-- [ ] 'black'
+- [ ] `'blue'`
+- [ ] `'red'`
+- [ ] `'green'`
+- [ ] `'yellow'`
+- [ ] `'black'`
 - [x] Unknown/unpredictable
 
 
@@ -224,10 +224,10 @@ Question 8
 
 What is the result of `colors = ['blue', 'red', 'green', 'yellow', 'black']; sorted_colors = colors.sort(); print(sorted_colors)`?
 
-- [ ] ['black', 'blue', 'green', 'red', 'yellow']
-- [ ] ['blue', 'red', 'green', 'yellow', 'black']
-- [ ] TypeError
-- [x] None
+- [ ] `['black', 'blue', 'green', 'red', 'yellow']`
+- [ ] `['blue', 'red', 'green', 'yellow', 'black']`
+- [ ] `TypeError`
+- [x] `None`
 
 
 Question 9
@@ -235,10 +235,10 @@ Question 9
 
 What is the result of `'hello world'.split(' ')[0]`?
 
-- [x] 'hello'
-- [ ] 'h'
-- [ ] ['hello', 'world']
-- [ ] ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+- [x] `'hello'`
+- [ ] `'h'`
+- [ ] `['hello', 'world']`
+- [ ] `['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']`
 
 
 Question 10
