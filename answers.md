@@ -250,3 +250,95 @@ Which of these statements is incorrect?
 - [ ] Functions must be declared before they can be used.
 - [x] The `sum()` function has to be imported from the `math` module before it can be used.
 - [ ] A given function is allowed to call itself.
+
+
+Unit 3
+======
+
+Question 1
+----------
+
+Why do we open a file using a with-statement (context manager)?
+
+- [ ] A with-statement is required for file system access.
+- [x] When we exit the with-statement, the file is closed automatically.
+- [ ] With statements allow us to iterate over the lines inside a file.
+
+
+Question 2
+----------
+
+What kind of data is suitable for storing in a CSV file?
+
+- [ ] Hierarchically nested data.
+- [ ] Binary data, such as EEG recordings.
+- [x] Any kind of data that can be arranged in a table.
+- [ ] Any kind of data.
+
+
+Question 3
+----------
+
+What kind of data is suitable for storing in a JSON file?
+
+- [x] Hierarchically nested data.
+- [ ] Binary data, such as EEG recordings.
+- [ ] Any kind of data that can be arranged in a table.
+- [ ] Any kind of data.
+
+
+Question 4
+----------
+
+Given the example project organization I showed above, how would analysis.py access the experiment 2 data file?
+
+- [ ] `'data/exp2/data.csv'`
+- [ ] `'data/exp2_data.csv'`
+- [ ] `'exp2/data.csv'`
+- [ ] `Path('..') / 'data' / 'exp2_data.csv'`
+- [ ] `Path('data') / 'exp2' / 'data.csv'`
+- [x] `Path('..') / 'data' / 'exp2' / 'data.csv'`
+
+
+Question 5
+----------
+
+What is the result of `[letter.upper() for letter in "hello"]`?
+
+- [ ] `'HELLO'`
+- [ ] `'Hello'`
+- [x] `['H', 'E', 'L', 'L', 'O']`
+- [ ] `['HELLO']`
+- [ ] `None`
+
+
+Question 6
+----------
+
+Which is these statements is false?
+
+- [ ] In Python, variables can change type.
+- [x] If a variable is annotated as an `int`, it is not allowed to be any other type.
+- [ ] Python is a dynamically-typed language.
+- [ ] Type hints are optional in Python.
+
+
+Question 7
+----------
+
+In what situation would you use Python's try/except feature?
+
+- [ ] To make sure that a chunk of code won't crash.
+- [x] To take corrective action if a particular type of error occurs.
+- [ ] To alert the user to a potential issue in the code.
+
+
+Question 8
+----------
+
+Given the Trieste text above, how many substrings match the regex pattern `20\d\d?`?
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
