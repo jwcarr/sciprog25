@@ -252,6 +252,64 @@ Which of these statements is incorrect?
 - [ ] A given function is allowed to call itself.
 
 
+Horoscope exercise
+------------------
+
+Here's one way to determine someone's star sign based on their birthday.
+
+```python
+sign_dates = {
+	"Aries": [[3, 21], [4, 19]],
+	"Taurus": [[4, 20], [5, 20]],
+	"Gemini": [[5, 21], [6, 20]],
+	"Cancer": [[6, 21], [7, 22]],
+	"Leo": [[7, 23], [8, 22]],
+	"Virgo": [[8, 23], [9, 22]],
+	"Libra": [[9, 23], [10, 22]],
+	"Scorpio": [[10, 23], [11, 21]],
+	"Sagittarius": [[11, 22], [12, 21]],
+	"Capricorn": [[12, 22], [1, 19]],
+	"Aquarius": [[1, 20], [2, 18]],
+	"Pisces": [[2, 19], [3, 20]],
+}
+
+def determine_star_sign_from_birthday(target_month, target_date):
+	determined_sign = None
+	for sign, ((start_month, start_date), (end_month, end_date)) in sign_dates.items():
+		if (target_month == start_month and target_date > start_date) or (target_month == end_month and target_date < end_date):
+			determined_sign = sign
+	return determined_sign
+
+print( determine_star_sign_from_birthday(12, 16) ) # December 16 -> Sagittarius
+```
+
+Sum functions
+-------------
+
+Here's three ways to create a sum function.
+
+```python
+def sum1(nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
+
+def sum2(nums):
+    total = 0
+    index = 0
+    while index < len(nums):
+        total += nums[index]
+        index += 1
+    return total
+
+def sum3(nums, total=0):
+    if len(nums) == 0:
+        return total
+    return sum3(nums[1:], total + nums[0])
+```
+
+
 Unit 3
 ======
 
